@@ -9,7 +9,7 @@ icon: https://raw.githubusercontent.com/wiremind/remoulade/master/artwork/logo.p
 dependencies:
   - name: postgresql
     version: "*"
-    repository: https://wiremind.github.io/wiremind-helm-charts
+    repository: https://charts.bitnami.com/bitnami
     alias: remoulade-postgresql
   - name: redis
     version: "*"
@@ -18,7 +18,7 @@ dependencies:
   - name: rabbitmq
     version: "*"
     repository: https://charts.bitnami.com/bitnami
-    condition: rabbitmq.enabled
+    alias: remoulade-rabbitmq
   - name: prometheus-rabbitmq-exporter
     version: "*"
     repository: https://prometheus-community.github.io/helm-charts
