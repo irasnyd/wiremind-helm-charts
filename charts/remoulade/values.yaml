@@ -201,3 +201,6 @@ remoulade-redis:
 #   - name: wiremind-configfile
 #     mountPath: "/app/wiremind.yaml"
 #     subPath: wiremind.yaml
+
+# extracontainer
+# metrics
